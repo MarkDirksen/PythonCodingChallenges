@@ -1,0 +1,2 @@
+msg = "Waddup"
+print(msg)
