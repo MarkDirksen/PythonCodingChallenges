@@ -1,9 +1,9 @@
 import math
 import numpy as np
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from numpy.random import randn
 
-n = 100000
+n = 10000
 m = 0
 l = []
 
@@ -13,7 +13,7 @@ for i in range(n):
         m = m + 1
     l.append(m/(i+1))
 
-#print(l)
+print(l)
 
-#plt.scatter(range(n),l)
-#plt.show()
+plt.scatter(range(n),l)
+plt.show()

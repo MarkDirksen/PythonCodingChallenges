@@ -1,0 +1,19 @@
+-> in anaconda prompt
+
+#create conda environment
+conda create -n python36 python=3.6 anaconda
+
+#update conda
+conda update -n base -c defaults conda
+
+#show installed packages
+conda list
+
+#install package
+pip install [packagename]
+
+#show available environments
+conda env list
+
+#activate environment
+activate python36
